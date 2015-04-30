@@ -8,5 +8,5 @@ xuefeng.wang@stonybrook.edu
 hxchen@ucdavis.edu
 
 
-CLOSE is a toolkit for **C**NA and **LO**H analysis with **SE**quencing data. Current pipeline majorly facilitates the analysis based on paired tumor and normal samples.
+CLOSE is a toolkit for **C**NA and **LO**H analysis with **SE**quencing data. Current pipeline majorly facilitates the analysis  on paired tumor and normal samples.
 
