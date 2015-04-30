@@ -1,6 +1,6 @@
 
 
-CLOSE: A toolkit for **C**NA and **LO**H analysis with **Se**quencing data
+CLOSE: A toolkit for **C**NA/**LO**H analysis with **Se**quencing data
 ====
 
 xuefeng.wang@stonybrook.edu 
