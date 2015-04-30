@@ -1,7 +1,7 @@
 Following software need to be installed before using this pipeline: 
 Freebayes; GATK; Picard Tools, SnpEff, falcon
 
-hg19_2.sh: bash file for generating hg19 reference genome files
+**hg19_2.sh**: bash file for generating hg19 reference genome files
 
 bamprep_3.sh: sort (by coordinates), clean and index bam files, and then reorder according to the reference genome to be readable by freebayes and GATK. 
 
