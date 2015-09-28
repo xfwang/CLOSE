@@ -67,6 +67,7 @@ without need to model number of clusters directly. The cluster (pink cluster) th
 point (minCN=1 and majCN=1) corresponds to the normal regions, and other cluster status can be
 inferred accordingly, as described in the supplementary method.
 <br>
+
     * **purit estimation**
     ![purity] (https://github.com/xfwang/CLOSE/blob/master/instr/image/purity.png)
     
