@@ -51,9 +51,22 @@ CLOSE-R
     * cluster: index of cluster this segment belongs to (based on a distance-based Chinese Restaurant Process)
     * status_cluster: copy number status estimated based on clusters
     * status_seg: copy number status estimated based on segments
+ <br>
+
  * `<sampleName>`.plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
-    * LRR vs. LAF
+    * LRR vs. LAF: each circle represents a segment; color shows the clusters estimated by distance-based Chinese Restaurant Process; size shows the relative length of the segment; 
     ![LRR vs. LAF] (https://github.com/xfwang/CLOSE/blob/master/instr/image/LRR.vs.LAF.png)
     * majCNR vs. minCNR
     ![majCNR vs. minCNR] (https://github.com/xfwang/CLOSE/blob/master/instr/image/majCNR.vs.minCNR.png)
+     Assessment of copy number status of one sample based on distance based modified Chinese restaurant
+process (CRP). The relative ASCN (allele specific copy number) estimates can be calculated based on
+LRR and BAF. The center of each circle in the plot depictes the minCN and majCN ratios (or relative
+ASCN) estiamted from each genomic segment. The size of the circle indicates the length of one segment.
+The colors of the circles indicate the grouping results from the Chinese restaurant process (CRP). As
+shown in the figure, CRP enables the partition of the genome-wide CNA profile into blocks corresponding
+to different CNA status. The main advantage of the algorithm is that it allows unknown number of clusters
+without need to model number of clusters directly. The cluster (pink cluster) that is closest to the baseline
+point (minCN=1 and majCN=1) corresponds to the normal regions, and other cluster status can be
+inferred accordingly, as described in the supplementary method.
+
     * purity：
