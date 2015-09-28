@@ -54,7 +54,7 @@ CLOSE-R
  <br>
 
  * `<sampleName>`.plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
-    * Assessment of copy number status
+    * **Assessment of copy number status**
     ![majCNR vs. minCNR] (https://github.com/xfwang/CLOSE/blob/master/instr/image/majCNR.vs.minCNR.png)
      Assessment of copy number status of one sample based on distance based modified Chinese restaurant
 process (CRP). The relative ASCN (allele specific copy number) estimates can be calculated based on
@@ -66,7 +66,7 @@ to different CNA status. The main advantage of the algorithm is that it allows u
 without need to model number of clusters directly. The cluster (pink cluster) that is closest to the baseline
 point (minCN=1 and majCN=1) corresponds to the normal regions, and other cluster status can be
 inferred accordingly, as described in the supplementary method.
-
-    * purit estimation
+<br>
+    * **purit estimation**
     ![purity] (https://github.com/xfwang/CLOSE/blob/master/instr/image/purity.png)
     
