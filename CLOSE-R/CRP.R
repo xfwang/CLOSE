@@ -1,6 +1,6 @@
 CRP<-function(Input, codePath, output, sampleName="closer"){
 
-       # CLOSE-R main functions
+       # CLOSE-R main functions, estimate copy number based on CRP
        # calls all the sub functions inside of subFunc.R
        
        # paramters:
