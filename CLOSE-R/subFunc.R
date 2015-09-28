@@ -153,8 +153,9 @@ getCNstatus<-function(centroid, CNR.mat, segs, segs.cluster, Ncluster){
 
 
     f<-cbind(paste("chr",segs[,5], sep=""), segs[,6:7],segs[,1:2], CNR.mat[,1:2], segs.cluster[,1], seg_status_cluster, seg_status)
-    colnames(f)<-c("chr","start","end","LAF_median", "logR_mean", "minCNR", "majCNR", "cluster", "status_cluster", "status_seg")
-    return(f)
+    f2<-f[order(segs[,5], f[,2]),]
+    colnames(f2)<-c("chr","start","end","LAF_median", "logR_mean", "minCNR", "majCNR", "cluster", "status_cluster", "status_seg")
+    return(f2)
 }
 
 
