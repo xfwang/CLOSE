@@ -85,7 +85,6 @@ inferred accordingly, as described in the supplementary method.
 
 **Description**
   * Estimate global purity and ploidy using MAP (Maximum a posteriori)
-
 <br><br> 
 
 #### [CLOSE-R.R] (https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/CLOSE-R.R)
