@@ -13,11 +13,11 @@ CLOSE-R
 
 **Depends** R (>= 3.22) DPpackage,grid,ggplot2,VariantAnnotation
 <br><br><br>
-_____________________________________________________________________________________________________________
 
-**CLOSER**         *Main function of CLOSE-R*
-_____________________________________________________________________________________________________________
 
+
+## Main function of CLOSE-R
+====
 
 **Description**
 
@@ -25,7 +25,7 @@ ________________________________________________________________________________
  
 **Usage**
 
-  * CLOSER(Input, codeDir, output, sampleName)
+  * CLOSER(Input, codeDir, outDir, sampleName)
  
 **Arguments**
 
@@ -35,13 +35,13 @@ ________________________________________________________________________________
   * **codeDir**
     * direcotry where the sub-function script subFunc.R is saved (e.g., /home/CLOSER_code/)
  
-  * **output**
+  * **outDir**
     * desired location of output files (e.g., /home/CLOSER_output/)
  
   * **sampleName**
     * output prefix; all output files created by CLOSER will have this prefix (e.g., .CNstatus.txt, .plotCNR.pdf, etc.). If this option is not provided the default output prefix being used is: "closer"
  
-**Value**
+**Output**
  * <sampleName>.CNstatus.txt (See [example.CNstatus.txt](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.CNstatus.txt)) containing the following columns:
     * chromosome: chromosome of segments
     * start: start location of segments
@@ -52,5 +52,5 @@ ________________________________________________________________________________
     * majCNR: estimated major allele copy number ratio of segments
     * cluster: index of cluster this segment belongs to (based on a distance-based Chinese Restaurant Process)
     * status_cluster: copy number status estimated based on clusters
-    * status——seg: copy number status estimated based on segments
-
+    * status_seg: copy number status estimated based on segments
+ * <sampleName>.plotCNR.pdf plots the 
