@@ -54,9 +54,7 @@ CLOSE-R
  <br>
 
  * `<sampleName>`.plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
-    * LRR vs. LAF: each circle represents a segment; color shows the clusters estimated by distance-based Chinese Restaurant Process; size shows the relative length of the segment; 
-    ![LRR vs. LAF] (https://github.com/xfwang/CLOSE/blob/master/instr/image/LRR.vs.LAF.png)
-    * majCNR vs. minCNR
+    * Assessment of copy number status
     ![majCNR vs. minCNR] (https://github.com/xfwang/CLOSE/blob/master/instr/image/majCNR.vs.minCNR.png)
      Assessment of copy number status of one sample based on distance based modified Chinese restaurant
 process (CRP). The relative ASCN (allele specific copy number) estimates can be calculated based on
@@ -69,4 +67,6 @@ without need to model number of clusters directly. The cluster (pink cluster) th
 point (minCN=1 and majCN=1) corresponds to the normal regions, and other cluster status can be
 inferred accordingly, as described in the supplementary method.
 
-    * purity：
+    * purit estimation
+    ![purity] (https://github.com/xfwang/CLOSE/blob/master/instr/image/purity.png)
+    
