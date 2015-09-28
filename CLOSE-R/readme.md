@@ -99,7 +99,7 @@ inferred accordingly, as described in the supplementary method.
   * plotCNstatus.WG(CNstatus, BAF, LRR, sampleName)
 
 #####Arguments
-  * see [plotCNstatus.chr]
+  * see `<plotCNstatus.chr>`
 
 #####Output
 ![chr] (https://github.com/xfwang/CLOSE/blob/master/instr/image/visulization.WG.png)
