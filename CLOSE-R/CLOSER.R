@@ -1,14 +1,20 @@
 CLOSER<-function(Input, codePath, output, sampleName="closer"){
 
-	   # CLOSE-R main functions
-	   # calls all the sub functions inside of subFunc.R
-
+       # CLOSE-R main functions
+       # calls all the sub functions inside of subFunc.R
+       
+       # paramters:
+       # 1) Input:segments with LAF and LRR. See manual for more detail
+       # 2) codeDir: directory for subFunc.R 
+       # 3) output: desired direcotory to output files
+       # 4) sampleName: output files prefix. "closer" is not specified
+       
        setwd(output)
        library("DPpackage")
        library(grid)
        library(ggplot2)
 
-       R_scripts = paste(codePath, list.files(path=(codePath), pattern=".R$"), sep="/")
+       R_scripts = paste(codeDir, list.files(path=(codeDir), pattern=".R$"), sep="/")
 
        for (i in 1:length(R_scripts)){
 	       source(R_scripts[i])
