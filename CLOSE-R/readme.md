@@ -17,13 +17,15 @@ CLOSE-R
 
 ## Main function of CLOSE-R
 
+#### segCN
+
 **Description**
 
   * Perform CLOSE-R analysis starting from a segment-level input
  
 **Usage**
 
-  * CLOSER(Input, codeDir, outDir, sampleName)
+  * segCN(Input, codeDir, outDir, sampleName)
  
 **Arguments**
 
