@@ -74,7 +74,7 @@ point (minCN=1 and majCN=1) corresponds to the normal regions, and other cluster
 inferred accordingly, as described in the supplementary method.
 <br>
 
-    * **Purit estimation**
+    * **Purity estimation**
     ![purity] (https://github.com/xfwang/CLOSE/blob/master/instr/image/purity.png)
     Minor allelic CN is fitted by Dirchlet Process
 <br><br><br>
