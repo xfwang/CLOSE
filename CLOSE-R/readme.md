@@ -33,12 +33,24 @@ ________________________________________________________________________________
     * input data matrix, LAF (lesser allale frequency) and LRR (log2 of the read depth ratio tumor/normal) at segment-level. This matrix is required to have five columns: chromosome, start position, end position of the segments, LAF (summerized LAF of the segment, usually mean or median), and LRR (summerized LRR of the segment, usually mean or median). See [example.input](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.input.txt) for example 
  
   * **codeDir**
-    * direcotry where the sub-function script subFunc.R is saved
+    * direcotry where the sub-function script subFunc.R is saved (e.g., /home/CLOSER_code/)
  
   * **output**
-    * desired location of output files
+    * desired location of output files (e.g., /home/CLOSER_output/)
  
   * **sampleName**
-    * output prefix; all output files created by CLOSER will have this prefix (e.g. .CNstatus.txt, .plotCNR.pdf, etc.). If this option is not provided the default output prefix being used is: "closer"
+    * output prefix; all output files created by CLOSER will have this prefix (e.g., .CNstatus.txt, .plotCNR.pdf, etc.). If this option is not provided the default output prefix being used is: "closer"
  
+**Value**
+ * <sampleName>.CNstatus.txt (See [example.CNstatus.txt](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.CNstatus.txt)) containing the following columns:
+    * chromosome: chromosome of segments
+    * start: start location of segments
+    * end：end location of segments
+    * LAF: summarized LAF (lesser allele frequency) of segments
+    * LRR: summarized LRR of segments
+    * minCNR: estimated minor allele copy number ratio of segments
+    * majCNR: estimated major allele copy number ratio of segments
+    * cluster: index of cluster this segment belongs to (based on a distance-based Chinese Restaurant Process)
+    * status_cluster: copy number status estimated based on clusters
+    * status——seg: copy number status estimated based on segments
 
