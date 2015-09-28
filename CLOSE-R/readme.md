@@ -52,6 +52,8 @@ CLOSE-R
     * status_cluster: copy number status estimated based on clusters
     * status_seg: copy number status estimated based on segments
  * `<sampleName>`.plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
-    * ![LRR vs. LAF] (https://github.com/xfwang/CLOSE/blob/master/instr/image/LRR.vs.LAF.png)
-    * ![majCNR vs. minCNR] (https://github.com/xfwang/CLOSE/blob/master/instr/image/majCNR.vs.minCNR.png)
+    * LRR vs. LAF
+    ![LRR vs. LAF] (https://github.com/xfwang/CLOSE/blob/master/instr/image/LRR.vs.LAF.png)
+    * majCNR vs. minCNR
+    ![majCNR vs. minCNR] (https://github.com/xfwang/CLOSE/blob/master/instr/image/majCNR.vs.minCNR.png)
     * purity：
