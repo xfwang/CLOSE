@@ -1,4 +1,4 @@
-segCN<-function(Input, codePath, output, sampleName="closer"){
+CRP<-function(Input, codePath, output, sampleName="closer"){
 
        # CLOSE-R main functions
        # calls all the sub functions inside of subFunc.R
