@@ -92,3 +92,14 @@ inferred accordingly, as described in the supplementary method.
 
 #####Output
 ![chr] (https://github.com/xfwang/CLOSE/blob/master/instr/image/visulization.chr.png)
+
+### whole-genomeCopy number status
+#####Usage
+  * plotCNstatus.WG(CNstatus, BAF, LRR, sampleName)
+
+#####Arguments
+  * see [plotCNstatus.chr]
+
+#####Output
+![chr] (https://github.com/xfwang/CLOSE/blob/master/instr/image/visulization.WG.png)
+
