@@ -17,7 +17,7 @@ CLOSE-R
 
 ## Main function of CLOSE-R
 
-#### segCN
+#### segCN.R
 
 **Description**
 
@@ -79,7 +79,21 @@ inferred accordingly, as described in the supplementary method.
     * **Purity estimation**
     ![purity] (https://github.com/xfwang/CLOSE/blob/master/instr/image/purity.png)
     Minor allelic CN is fitted by Dirchlet Process
+<br><br>
+
+#### MAP.R
+
+**Description**
+  * Estimate global purity and ploidy using MAP (Maximum a posteriori)
+<br><br> 
+
+
+#### CLOSE-R.R
+
+**Description**
+  * Estimate local copy number given ploidy and purity (based on segmental ASCN coordinates)
 <br><br><br>
+
 
 ## Copy number visulization
 ### Copy number status by chromosome
