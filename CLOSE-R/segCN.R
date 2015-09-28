@@ -1,4 +1,4 @@
-CLOSER<-function(Input, codePath, output, sampleName="closer"){
+segCN<-function(Input, codePath, output, sampleName="closer"){
 
        # CLOSE-R main functions
        # calls all the sub functions inside of subFunc.R
