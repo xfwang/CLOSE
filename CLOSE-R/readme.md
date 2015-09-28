@@ -51,4 +51,7 @@ CLOSE-R
     * cluster: index of cluster this segment belongs to (based on a distance-based Chinese Restaurant Process)
     * status_cluster: copy number status estimated based on clusters
     * status_seg: copy number status estimated based on segments
- * <sampleName>.plotCNR.pdf plots the 
+ * <sampleName>.plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
+    * LRR vs. LAF: 
+    * majCNR vs. minCNR:
+    * purity：
