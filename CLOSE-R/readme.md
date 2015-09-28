@@ -29,7 +29,13 @@ CLOSE-R
 
   * **Input**
     * input data matrix, LAF (lesser allale frequency) and LRR (log2 of the read depth ratio tumor/normal) at segment-level. This matrix is required to have five columns: chromosome, start position, end position of the segments, LAF (summerized LAF of the segment, usually mean or median), and LRR (summerized LRR of the segment, usually mean or median). See [example.input](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.input.txt) for example 
- 
+
+| chromosome |     start |       end |         LAF |          LRR |
+|-----------:|----------:|----------:|------------:|-------------:|
+|          1 |     69223 |  77094390 |  0.44093354 |  0.018121361 |
+|          1 |  77334232 | 101705424 | 0.03278689  | -0.904481026 |
+|          1 | 101705491 | 120934508 |  0.45502142 | -0.005127826 |
+
   * **codeDir**
     * direcotry where the sub-function script subFunc.R is saved (e.g., /home/CLOSER_code/)
  
