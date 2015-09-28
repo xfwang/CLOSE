@@ -14,9 +14,19 @@ CLOSE-R
 **Depends** R (>= 3.22) DPpackage,grid,ggplot2,VariantAnnotation
 
 _____________________________________________________________________________________________________________
--------------------------------------------------------------------------------------------------------------
-CLOSER                        Main function of CLOSE-R
+
+CLOSER                        *Main function of CLOSE-R*
 _____________________________________________________________________________________________________________
+
+**Description**
+ * Perform CLOSE-R analysis starting from a segment-level input
+ 
+**Usage**
+ * CLOSER(Input, codeDir, output, sampleName)
+ 
+**Arguments**
+ * Input        input data matrix, LAF (lesser allale frequency) and LRR (log2 of the read depth ratio tumor/normal) at segment-level. This matrix is required to have five columns: chromosome, start position, end position of the segments, LAF (summerized LAF of the segment, usually mean or median), and LRR (summerized LRR of the segment, usually mean or median). See <example.input.txt> for example.
+ * 
 
 
 
