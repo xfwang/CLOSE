@@ -77,7 +77,7 @@ inferred accordingly, as described in the supplementary method.
     * **Purit estimation**
     ![purity] (https://github.com/xfwang/CLOSE/blob/master/instr/image/purity.png)
     Minor allelic CN is fitted by Dirchlet Process
-<br><br>
+<br><br><br>
 
 ## Copy number visulization
 ### Copy number status by chromosome
