@@ -15,9 +15,7 @@ CLOSE-R
 <br><br><br>
 
 
-
 ## Main function of CLOSE-R
-====
 
 **Description**
 
