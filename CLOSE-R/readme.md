@@ -92,9 +92,9 @@ inferred accordingly, as described in the supplementary method.
 
 #####Output
 ![chr] (https://github.com/xfwang/CLOSE/blob/master/instr/image/visulization.chr.png)
-<br>
+<br><br>
 
-### whole-genomeCopy number status
+### Global Copy number status
 #####Usage
   * plotCNstatus.WG(CNstatus, BAF, LRR, sampleName)
 
@@ -103,7 +103,7 @@ inferred accordingly, as described in the supplementary method.
 
 #####Output
 ![chr] (https://github.com/xfwang/CLOSE/blob/master/instr/image/visulization.WG.png)
-<br>
+<br><br>
 
 ### Comparison of copy number calls from WES and SNP array 
 
