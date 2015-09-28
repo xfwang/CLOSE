@@ -40,7 +40,7 @@ CLOSE-R
     * output prefix; all output files created by CLOSER will have this prefix (e.g., .CNstatus.txt, .plotCNR.pdf, etc.). If this option is not provided the default output prefix being used is: "closer"
  
 **Output**
- * [sampleName].CNstatus.txt (See [example.CNstatus.txt](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.CNstatus.txt)) containing the following columns:
+ * `<sampleName>`.CNstatus.txt (See [example.CNstatus.txt](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.CNstatus.txt)) containing the following columns:
     * chromosome: chromosome of segments
     * start: start location of segments
     * end：end location of segments
@@ -51,7 +51,7 @@ CLOSE-R
     * cluster: index of cluster this segment belongs to (based on a distance-based Chinese Restaurant Process)
     * status_cluster: copy number status estimated based on clusters
     * status_seg: copy number status estimated based on segments
- * [sampleName].plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
+ * `<sampleName>`.plotCNR.pdf plots the minCNR/majCNR estimated by CLOSE-R
     * LRR vs. LAF: 
     * majCNR vs. minCNR:
     * purity：
