@@ -31,5 +31,13 @@ ________________________________________________________________________________
   * Input
     * input data matrix, LAF (lesser allale frequency) and LRR (log2 of the read depth ratio tumor/normal) at segment-level. This matrix is required to have five columns: chromosome, start position, end position of the segments, LAF (summerized LAF of the segment, usually mean or median), and LRR (summerized LRR of the segment, usually mean or median). See [example.input](https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.input.txt) for example 
  
-
+ * codeDir
+  * direcotry where the sub-function script subFunc.R is saved
+ 
+ * output
+  * desired location of output files
+ 
+* sampleName
+ * output prefix; all output files created by CLOSER will have this prefix (e.g. .CNstatus.txt, .plotCNR.pdf, etc.). If this option is not provided the default output prefix being used is: "closer"
+ 
 
