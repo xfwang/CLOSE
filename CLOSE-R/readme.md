@@ -28,7 +28,9 @@ ________________________________________________________________________________
  
 **Arguments**
 
-  * Input \ input data matrix, LAF (lesser allale frequency) and LRR (log2 of the read depth ratio tumor/normal) at segment-level. This matrix is required to have five columns: chromosome, start position, end position of the segments, LAF (summerized LAF of the segment, usually mean or median), and LRR (summerized LRR of the segment, usually mean or median). See <blockquote cite="https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.input.txt"> for example.
+  * Input \ input data matrix, LAF (lesser allale frequency) and LRR (log2 of the read depth ratio tumor/normal) at segment-level. This matrix is required to have five columns: chromosome, start position, end position of the segments, LAF (summerized LAF of the segment, usually mean or median), and LRR (summerized LRR of the segment, usually mean or median). See <blockquote cite="https://github.com/xfwang/CLOSE/blob/master/CLOSE-R/example.input.txt"> 
+    p>This is a quotation taken from the Mozilla Developer Center.</p>
+</blockquote>for example.
    
 
 
