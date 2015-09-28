@@ -649,14 +649,14 @@ VCFprep<-function(Normal.vcf, Tumor.vcf,  filter = FALSE){
 
 
 # compare copy number estimated by CLOSER to TCGA resutls
-compareToTCGA<-function(CNstatus, TCGA,sampleName){
+compareToArray<-function(CNstatus, SNParray,sampleName){
 	  # parameters:
 	  # 1) CNstatus: output from getCNstatus()
-      # 2) TCGA: matrix with 4 columns 
+      # 2) SNParray: matrix with 4 columns 
             #(1) chr: integer
             #(2) start: numeric
             #(3) end: numeric
-            #(4) seg_mean from TCGA data
+            #(4) copy number estimates
       # 3) sampleName: output prefix
 
 
