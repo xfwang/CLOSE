@@ -94,8 +94,9 @@ inferred accordingly, as described in the supplementary method.
 
 **Output**
   * Paramter trajectory plots (canonical lines) of different copy number status along with purity
-![canonical] (https://github.com/xfwang/CLOSE/blob/master/instr/image/canonical.png)
+![canonical] (https://github.com/xfwang/CLOSE/blob/master/instr/image/canonical.png?raw=true)
 <br><br><br>
+
 
 
 ## Copy number visulization
