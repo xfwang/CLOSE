@@ -145,5 +145,5 @@ inferred accordingly, as described in the supplementary method.
   * SNParray: copy number calls from WES and SNP arrays; 4 columns (1)chr, (2)start of region, (3)end of region, (4)copy number estimates 
 
 #####Output
-![TCGA] (https://github.com/xfwang/CLOSE/blob/master/instr/image/TCGA.png)
+![TCGA] (CLOSE/instr/image/TCGA.png)
 Comparison of global copy number calls from WES and SNP array (Affeymetrix SNP6). The segmented copy number estimates (Segment_mean) based on SNP6 are downloaded from broad firehose website (http://gdac.broadinstitute.org/runs/stddata__2015_04_02).
