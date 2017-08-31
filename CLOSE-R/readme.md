@@ -110,7 +110,7 @@ inferred accordingly, as described in the supplementary method.
   * sampleName: output prefix
 
 #####Output
-![chr] (CLOSE/instr/image/visulization.chr.png)
+![chr] (https://github.com/xfwang/CLOSE/instr/image/visulization.chr.png)
 <br><br>
 
 ### Global Copy number status
