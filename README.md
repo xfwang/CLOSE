@@ -121,6 +121,7 @@ inferred accordingly, as described in the supplementary method.
   * sampleName: output prefix
 
 #####Output
+
 ![chr] (https://github.com/xfwang/CLOSE/blob/master/instr/image/visulization.chr.png)
 <br><br>
 
